@@ -2,6 +2,10 @@
 
 Basic nix-fu commands
 
+## To count the number of files in a directory
+
+ls -1 | wc -l
+
 ```
 pwd
 echo $SHELL
