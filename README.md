@@ -2,6 +2,11 @@
 
 Basic nix-fu commands
 
+
+## To delete all .pyc cache files within a directory and subdirectories
+
+find . -name "*.pyc" -exec rm -f {} \;
+
 ## To count the number of files in a directory
 
 ls -1 | wc -l
